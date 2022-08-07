@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Products -Red store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Courgette&family=Crete+Round:ital@1&family=Edu+VIC+WA+NT+Beginner:wght@500;600&family=Poppins:wght@200;400;500;600;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Image of logo" width="125px">
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li> <a href="">Home</a> </li>
+          <li> <a href="">Product</a> </li>
+          <li> <a href="">About</a> </li>
+          <li> <a href="">Contact</a> </li>
+          <li> <a href="">Account</a> </li>
+        </ul>
+      </nav>
+      <img src="images/cart.png" alt="" width="30px">
+      <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+
+  <!------------SINGLE PRODUCT DETAILS  ----------->
+
+  <div class="small-container">
+    <div class="row">
+      <div class="col-2">
+        <img src="images/gallery-1.jpg" width="90%" alt="">
+      </div>
+      <div class="col-2">
+        <p>Home / Chicken Burger</p>
+        <h1>Chicken Burger by Sundown </h1>
+        <h4>$50.00</h4>
+        <select>
+          <option>Select Size</option>
+          <option>Extra Large</option>
+          <option>Large</option>
+          <option>Medium</option>
+          <option>Small</option>
+        </select>
+        <input type="number" value="1">
+        <a href="" class="btn">Add To Cart</a>
+        <h3>Product Details</h3>
+        <p>Give Your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with the pair of shorts for your morning workout or a denims for an evening out with the guys.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="small-container">
+
+  <div class="row">
+    <div class="col-4">
+      <img src="images/product-9.jpg" alt="">
+      <h4>Vanilla Ice-cream</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$22.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-10.jpg" alt="">
+      <h4>Fry Rice</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$55.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-11.jpg" alt="">
+      <h4>Chicken Balls</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"> </i>
+
+      </div>
+      <p>$60.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-12.jpg" alt="">
+      <h4>Puri Tarkali</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$25.00</p>
+    </div>
+  </div>
+
+</div>
+
+</div>
+
+<!------------Footer  --------->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Andriod and ios mobile phone. </p>
+        <div class="app-logo">
+          <img src="images/play-store.png" alt="">
+          <img src="images/app-store.png" alt="">
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="images/logo-white.png" alt="">
+        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 20220 - Alisha Bhujel</p>
+  </div>
+</div>
+
+<!----------Js for toggle menu  --------->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight="0px";
+
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+
+  }
+</script>
+</body>
+</html> 

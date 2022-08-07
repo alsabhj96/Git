@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alsa Store| Ecommerce Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Courgette&family=Crete+Round:ital@1&family=Edu+VIC+WA+NT+Beginner:wght@500;600&family=Poppins:wght@200;400;500;600;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class="header">
+  
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Image of logo" width="125px">
+      </div>
+      <nav>
+        <ul id="MenuItems">
+          <li> <a href="">Home</a> </li>
+          <li> <a href="">Product</a> </li>
+          <li> <a href="">About</a> </li>
+          <li> <a href="">Contact</a> </li>
+          <li> <a href="">Account</a> </li>
+        </ul>
+      </nav>
+      <img src="images/cart.png" alt="" width="30px">
+      <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"alt="">
+
+
+    </div>
+
+    <div class="row">
+      <div class="col-2">
+        <h1>Give  A New Taste!</h1>
+        <p> Sucess isnt always about greatness. It's about consistencey. Consistent<br>hard work gains sucess. Greatness will come.</p>
+        <a href="" class="btn">Explore Now &#8594</a>  <!--  to give row in back of explore now we use this font&#8594 -->
+      </div>
+
+      <div class="col-2">
+        <img src="images/image1.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Featured Categories -->
+
+<div class="categories">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3"> <img src="images/category-1.jpg" alt=""> </div>
+      <div class="col-3"> <img src="images/category-2.jpg" alt=""> </div>
+      <div class="col-3"> <img src="images/category-3.jpg" alt=""> </div>
+    </div>
+  </div>
+</div>
+
+
+<!----------------- Featured Products ------------------>
+
+<div class="small-container">
+  <h2 class="title">Featured Foods</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="images/product-1.jpg" alt="">
+      <h4>Mix Pizza</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$75.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-2.jpg" alt="">
+      <h4>Chicken Tikka Masala</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$70.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-3.jpg" alt="">
+      <h4>Buffalo Wings</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"> </i>
+
+      </div>
+      <p>$50.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-4.jpg" alt="">
+      <h4>Cheese Pizza</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$80.00</p>
+    </div>
+
+  <!----------------- Leatest Products ------------------>
+  </div>
+  <h2 class="title">Leatest Foods</h2>
+  <div class="row">
+    <div class="col-4">
+      <img src="images/product-5.jpg" alt="">
+      <h4>Momo</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+      </div>
+      <p>$50.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-6.jpg" alt="">
+      <h4>Chicken Burger</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"> </i>
+      </div>
+      <p>$55.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-7.jpg" alt="">
+      <h4>Chocolate Ice-cream</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"> </i>
+      </div>
+      <p>$25.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-8.jpg" alt="">
+      <h4>Chocolate Milkshake</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+      </div>
+      <p>$30.00</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+      <img src="images/product-9.jpg" alt="">
+      <h4>Vanilla Ice-cream</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$22.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-10.jpg" alt="">
+      <h4>Fry Rice</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$55.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-11.jpg" alt="">
+      <h4>Chicken Balls</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"> </i>
+
+      </div>
+      <p>$60.00</p>
+    </div>
+
+    <div class="col-4">
+      <img src="images/product-12.jpg" alt="">
+      <h4>Puri Tarkali</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"> </i>
+
+      </div>
+      <p>$25.00</p>
+    </div>
+
+  
+  </div>
+</div>
+
+<!------------- Offer ----------------->
+<div class="offer">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-2"> 
+        <img src="images/exclusive.png" class="offer-img"> </div>
+      <div class="col-2">
+        <p>Exclusively Available on Redstore</p>
+        <h1>Big Platter</h1>
+        <small>A platter is a large flat dish or plate, typically circular in shape, used for serving a meal.It is often a main dish served on a platter with one or more side dishes, such as a salad or french fries. </small>
+        <a href="" class="btn">Buy Now &#8594;</a>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<!-------Testimonial  ------->
+<div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In iusto molestias placeat doloribus vitae quo quae, eum ipsa autem odio, officiis eligendi.</p>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"> </i>
+        </div>
+        <img src="images/user-1.png">
+        <h3>Sean Parker</h3>
+      </div>
+
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In iusto molestias placeat doloribus vitae quo quae, eum ipsa autem odio, officiis eligendi.</p>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"> </i>
+        </div>
+        <img src="images/user-2.png">
+        <h3>Mike Smith Parker</h3>
+      </div>
+
+      <div class="col-3">
+        <i class="fa fa-quote-left"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In iusto molestias placeat doloribus vitae quo quae, eum ipsa autem odio, officiis eligendi.</p>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"> </i>
+        </div>
+        <img src="images/user-3.png">
+        <h3>Mabal Joe</h3>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-------------Brands  --------->
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <img src="images/logo-godrej.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="images/logo-oppo.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="images/logo-coca-cola.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="images/logo-paypal.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="images/logo-philips.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------Footer  --------->
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Andriod and ios mobile phone. </p>
+        <div class="app-logo">
+          <img src="images/play-store.png" alt="">
+          <img src="images/app-store.png" alt="">
+        </div>
+      </div>
+
+      <div class="footer-col-2">
+        <img src="images/logo-white.png" alt="">
+        <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+      </div>
+
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 20220 - Alisha Bhujel</p>
+  </div>
+</div>
+
+<!----------Js for toggle menu  --------->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+
+  MenuItems.style.maxHeight="0px";
+
+  function menutoggle(){
+    if(MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";
+    }
+    else
+    {
+      MenuItems.style.maxHeight = "0px";
+    }
+
+  }
+</script>
+</body>
+</html> 
